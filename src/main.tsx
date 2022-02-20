@@ -1,8 +1,8 @@
 import { FC } from 'react'
 
-import App from 'pages/app'
+import Routes from './routes'
 
 const Main: FC = () => {
-	return <App />
+	return <Routes />
 }
 export default Main

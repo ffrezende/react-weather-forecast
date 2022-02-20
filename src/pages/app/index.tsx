@@ -1,5 +1,7 @@
-function App() {
-	return <div className="App">oi</div>
+import { Container } from './styles'
+
+const App = () => {
+	return <Container data-testid="app-container" />
 }
 
 export default App

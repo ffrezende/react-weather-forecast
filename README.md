@@ -44,14 +44,14 @@ npm test
 ⚠️ Wait! This step happens automatically in pipeline, it's not necessary run build manually
 
 ```sh
-yarn build
+npm build
 ```
 
 ## DevTools 🛠
 
 ### Package Manager
 
-- [YARN](https://yarnpkg.com/)
+- [NPM](https://www.npmjs.com/)
 
 ### Text Editor
 

@@ -1,13 +1,15 @@
-import { Route, BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import App from 'pages/app'
 
-const Routes = () => {
+const RenderRoutes = () => {
 	return (
 		<BrowserRouter>
-			<Route element={App} path="/" />
+			<Routes>
+				<Route element={<App />} path="/" />
+			</Routes>
 		</BrowserRouter>
 	)
 }
 
-export default Routes
+export default RenderRoutes

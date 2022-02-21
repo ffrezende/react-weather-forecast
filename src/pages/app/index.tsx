@@ -1,7 +1,12 @@
-import { Container } from './styles'
+import { Background } from 'components/templates'
+import { Header } from 'components/organisms'
 
 const App = () => {
-	return <Container data-testid="app-container" />
+	return (
+		<Background data-testid="app-container">
+			<Header />
+		</Background>
+	)
 }
 
 export default App

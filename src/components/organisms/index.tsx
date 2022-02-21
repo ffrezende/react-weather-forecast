@@ -1,5 +1,1 @@
-// Providers
-
-const Organisms = () => <div />
-
-export default Organisms
+export { default as Header } from './Header'

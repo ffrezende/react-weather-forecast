@@ -1,10 +1,12 @@
+import { useTranslation } from 'react-i18next'
 import { InputText } from 'components/atoms'
 import { Container, Text } from './styles'
 
 const Header = () => {
+	const { t } = useTranslation()
 	return (
 		<Container>
-			<Text>Previsão do tempo</Text>
+			<Text>{t('home:homeTitle')}</Text>
 			<InputText />
 		</Container>
 	)
